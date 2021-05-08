@@ -2,7 +2,8 @@
 A sample Django appplication with JWT token authentication and CRUD operations
 
 #urls:
- admin/adviser; --> Takes POST request in which data (adviser name and photo url) has to be sent in JSON foramt.
+
+ admin/adviser/ --> Takes POST request in which data (adviser name and photo url) has to be sent in JSON foramt.
  
  user/register/ --> Takes POST request of username and password and if the data is valid it will create a new user.
  
