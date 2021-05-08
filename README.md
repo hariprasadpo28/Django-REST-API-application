@@ -9,7 +9,7 @@ A sample Django appplication with JWT token authentication and CRUD operations
  
  user/login/    --> Takes POST request of username and password and returns the JWT token 
  
- user/<id>/     --> Takes GET request and returns the details of the user id, username in JSON format
+ user/<user id>/     --> Takes GET request and returns the details of the user id, username in JSON format
  
  user/<id>/advisor/ --> Takes GET request and returns all the advisors list (adviser name, adviser id, adviser phot url)
  
